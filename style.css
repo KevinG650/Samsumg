@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+.city {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 16px;
+}
+
+.button-container {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+
+}
+
+.flex-container {
+    display: flex;
+    border: 0px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    border: 0;
+    background-color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    display: flex;
+    gap: 50px;
+
+    width: fit-content;
+    margin: auto;
+}
+
+.button-padding {
+    padding: 8px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.button-gap {
+    margin-top: 10px;
+}
+
+.button-gap-1 {
+    margin-top: 5px;
+}
+
+.main-img {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-family: sans-serif;
+    color: white;
+    flex-direction: column;
+    padding-left: 90px;
+    margin: 24px;
+}
+
+.low-text {
+    font-family: sans-serif;
+    color: black;
+    flex-direction: column;
+    padding-left: 580px;
+    margin: 24px;
+}
+
+.low-text-1 {
+    font-family: sans-serif;
+    color: black;
+    flex-direction: column;
+    padding-left: 780px;
+    margin: 24px;
+    font-size: 16px;
+}
+
+.button-1 {
+    border: 0;
+    background-color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+

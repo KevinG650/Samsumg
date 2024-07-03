@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0">
+    <div class="city">
+        <a href="https://www.samsung.com/us/">
+            <img src="/samsung logo.svg" style="margin-right: 30px;width: 120px;height: 32;">
+        </a>
+
+        <div class="flex-container">
+            <div class="buttons-container">
+                <button class="button-1">Shop</button>
+                <button class="button-1">AI</button>
+                <button class="button-1">Mobile</button>
+                <button class="button-1">Tv & Audio</button>
+                <button class="button-1">Appliances</button>
+                <button class="button-1">Computing</button>
+                <button class="button-1">Displays</button>
+                <button class="button-1">Accecories</button>
+                <button class="button-1">SmartThings</button>
+
+            </div>
+
+            <div>
+                <button class="button-1">Explore</button>
+                <button class="button-1">Support</button>
+                <button class="button-1">For Business</button>
+            </div>
+        </div>
+
+        <div class="button-padding">
+            <img style="height: 24px; width: 24px;" src="https://www.svgrepo.com/show/522266/search.svg"
+                class="button-gap">
+            <img style="height: 34px; width: 34px;" src="https://www.svgrepo.com/show/521103/cart-1.svg"
+                class="button-gap-1">
+            <img style="height: 24px; width: 24px;" src="https://www.svgrepo.com/show/447734/person-male.svg"
+                class="button-gap">
+        </div>
+    </div>
+    <div
+        style="background-image: url(https://images.samsung.com/is/image/samsung/assets/us/home/06252024/SCOMB6Q6-95_Q6B6_Reserve_HP_KV_DT_1440x640-latest.jpg?imwidth=2560;); height: 640px;width: 1440px;margin-left: 175px;">
+
+        <h3 style="padding-top: 140px;font-size: 18px;" class="main-text">Exclussive Offer</h3>
+        <h1 style="font-size: 50px;" class="main-text">Unfold your story with <br> Galaxy AI</h1>
+        <p class="main-text">
+            Reserve your $50 instant Samsung Credit and save up to $1,500 when you pre<br> -order a new Galaxy device.≡
+            Plus, enter the sweepstakes for a chance to win a <br>$5,000 credit.Ϟ
+        </p>
+    </div>
+
+    <div>
+        <h1 style="font-size: 35px;" class="low-text">Shop all latest offers and innovations</h1>
+        <a href="https://www.samsung.com/us/shop/all-deals/">
+            <h3 style="font-size: 20px;" class="low-text-1"><u>View all offers</u></h3>
+        </a>
+    </div>
+    <!-- <center> -->
+    <div class="button">
+        <button class="button-1"; onclick="openCity(event, 'For You')">For You</button>
+        <button class="button-1">Mobile</button>
+        <button class="button-1"></button>
+        <button class="button-1">Home Appliances</button>
+        <button class="button-1">Computing</button>
+        <button class="button-1">4th of July Sales</button>
+    </div>
+    <!-- </center> -->
+    <div id="For You">
+
+    </div>
+
+      <div style="height:100px; width:100px ;" class="tab">
+        <button class="tablinks" onclick="openCity(event, 'For You')">For You</button>
+        <button class="tablinks" onclick="openCity(event, 'Mobile')">Mobile</button>
+        <button class="tablinks" onclick="openCity(event, 'TV & Audio')">TV & Audio</button>
+      </div>
+      
+      <div id="For You" class="tabcontent">
+        <h3>For You</h3>
+        <p>For You is the capital city of England.</p>
+      </div>
+      
+      <div id="Mobile" class="tabcontent">
+        <h3>Mobile</h3>
+        <p>Mobile is the capital of France.</p> 
+      </div>
+      
+      <div id="TV & Audio" class="tabcontent">
+        <h3>TV & Audio</h3>
+        <p>TV & Audio is the capital of Japan.</p>
+      </div>
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+           
+
+</body>
+
+</html>
