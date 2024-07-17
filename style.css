@@ -17,7 +17,7 @@
 }
 
 .button-container {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     margin: 0%;
 
 }
@@ -33,7 +33,6 @@
 
 .button {
     border: 0;
-    background-color: white;
     font-weight: 600;
     font-family: sans-serif;
     display: flex;
@@ -47,7 +46,7 @@
     padding: 8px;
     display: flex;
     gap: 20px;
-
+max-width: 200px;
 }
 
 .button-gap {
@@ -94,46 +93,348 @@
 
 .button-1 {
     border: 0;
-    background-color: white;
     font-weight: 600;
     font-family: sans-serif;
     font-size: 14px;
 }
 
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-  
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-left: 24px;
+    gap: 30px;
+    max-width: 1440px;
+    margin-left: 150px;
+}
 
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+.div-style {
+    background-color: #F4F4F4;
+    height: 340px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 35px;
+    max-width: 1440px;
+
+}
+.low-text-2{
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.low-blue{
+color:#2981FF;
+font-family: sans-serif;
+font-size: 14px;
+}
+.low-text-3{
+color: black;
+font-family: sans-serif;
+font-size: 12px;
+}
+.low-text-4{
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    padding-left: 90px;
+    margin: 24px;
+}
+.main-button{
+background-color: black;
+color: white;
+border-radius: 20px;
+height: 40px;
+width: 125px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left:7px;
+font-weight: 600;
+}
+.low-text-5{
+font-family: sans-serif;
+color: rgb(0, 0, 0);
+margin: 0;
+padding: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.under{
+font-weight: bold;
+margin-bottom: 5px;
+}
+.button-1 {
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14 px;
+}
+.div-style-1 {
+    background-color: #ffffff;
+    height: 100px;
+    width: 650px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 925px;
+    position: relative;
+}
+.right-container{
+float: right;
+margin-right: 200px;
+}
+.button- {
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: sans-serif;
     font-size: 17px;
+}
+.left-container{
+    float: left;
+    display: flex;
+    margin-top: -100px;
+    mix-blend-mode: multiply;
+    margin-left: 200px;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    }
+.Explore-Text{
+font-size: 24px;
+font-family: sans-serif;
+color: black;
+}
+.bottom-text{
+margin-left: 200px;
+font-family: sans-serif;
+margin-bottom: 13px;
+font-size: 14px;
+font-weight: lighter;
+}
+.Text-contaier{
+max-width: 1300px;
+max-height: 750px;
+height: 750px;
+}
+.dropbtn {
+    background-color:transparent;
+    color: black;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  .dropbtn:hover{
+color: white;
   }
   
-
-  .tab button:hover {
-    background-color: #ddd;
+  .dropdown {
+    position:relative ;
+    display: inline-block;
   }
   
-
-  .tab button.active {
-    background-color: #ccc;
-  }
-  
-
-  .tabcontent {
+  .dropdown-content {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    min-width: 50px;
+    margin-top: 24px;
+    height: 500px;
+    width: 1100px;
+    flex-direction: column;
+    max-width: 1440px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    max-width: 1440px;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(42, 15, 177);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: black;}
+.menu-heading{
+font-weight: 600;
+font-family: sans-serif;
+margin-left: 15px;
+font-size: 16px;
+margin-bottom: 10px;
+}
+.menu-text{
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    }
+    .button-label{
+        border: 0;
+        background-color: transparent;
+        font-weight: 600;
+        font-family: sans-serif;
+        font-size: 17px;
+    }
+    .dropdown-content-ai {
+        display: none;
+        position: absolute;
+        background-color:rgb(255, 255, 255);
+        min-width: 50px;
+        margin-top: 24px;
+        height: 150px;
+        width: 200px;
+        flex-direction: column;
+        max-width: 1440px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .menu-blur{
+    background-color: rgba(0,0,0,0.4);
+    height: 5000px;
+    width: 100%;
+    
+      }
+      .dropdown:hover .dropdown-content-ai {display: block;}
+      .dropdown:hover .bg-text {display: block;}
+
+      .bg-text {
+        background-color: rgb(0,10,1);
+        background-color: rgba(0,0,0, 0.4);
+        height: 1000px;
+        width: 1440px;
+        position: absolute;
+        }
+        .text-center{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        border-bottom: 1px gray;
+        border-top: 1px gray;
+        }
+        .div-container-2{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1440px;
+            justify-content: center;
+        }
+        .div-style-2{
+            background-color: #F4F4F4;
+            height: 750px;
+            width: 360px;
+            border: black 1px;
+        }
+        .tab-button {
+        border-radius: 50px;
+        color: black;
+        background-color: rgba(43, 38, 38, 0.271);
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        }
+        * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 8px;
+  padding-left: 17px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  user-select: none;
+  justify-content: space-between;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 150px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 0px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+  
